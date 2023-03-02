@@ -1,4 +1,31 @@
 .movie{
     width: fit-content;
     height: fit-content;
+    position: relative;
+}
+.estimation{
+    width: 100px;
+    height: 78px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 22px;
+}
+.green{
+    background-color: rgb(59,179,58);
+}
+.red{
+    background-color: rgb(255,0,0);
+}
+.tickets{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(255,86,0);
+    color: white;
+    padding:20px 30px;
+    font-size: 24px;
 }
