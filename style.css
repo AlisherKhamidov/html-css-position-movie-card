@@ -1,1 +1,97 @@
-/* ваш код */
+* {
+    color: aliceblue;;
+    font-size: 40px;
+    margin: 10px;
+    font-family: "National-Semibold";
+  }
+.photo{
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 20px ;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.photo1{
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    border: 20px ;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+#evaluation1{
+        text-align:center;
+        font-size: 25px;
+        background-color: rgb(59,179,58) ;
+        width: 45px;
+        height: 40px;
+        padding: 10px 5px 0px  5px;
+        border-radius: none;
+        color: aliceblue;
+        margin: 25px 25px 25px 25px;
+        position: absolute;
+        bottom: 20px;
+        top: 50px;
+        left: 50px;
+        font-family: National-Semibold;
+    }
+    #evaluation2{
+        text-align:center;
+        font-size: 25px;
+        background-color: rgb(255,0,0) ;
+        width: 45px;
+        height: 40px;
+        padding: 10px 5px 0px  5px;
+        border-radius: none;
+        color: aliceblue;
+        margin: 1010px 25px 25px 25px;
+        position: absolute;
+        bottom: 20px;
+        top: 50px;
+        left: 50px;
+    }
+
+    #ticket{
+        text-align:center;
+        font-size: 25px;
+        background-color: rgb(255,86,0) ;
+        width: 100px;
+        height: 40px;
+        padding: 6px 5px 0px  5px;
+        border-radius: none;
+        color: aliceblue;
+        margin:750px 25px 25px 25px;
+        position: absolute;
+        bottom: 20px;
+        top: 50px;
+        right: 800px;
+    }
+    #ticket1{
+        text-align:center;
+        font-size: 25px;
+        background-color: rgb(255,86,0) ;
+        width: 100px;
+        height: 40px;
+        padding: 6px 5px 0px  5px;
+        border-radius: none;
+        color: aliceblue;
+        margin:1725px 25px 25px 25px;
+        position: absolute;
+        bottom: 20px;
+        top: 50px;
+        right: 800px;
+    }
+    #ticket:hover{color: black;}
+    #ticket1:hover{color: black;}
+    
+
+    @font-face {
+        font-family: "National-Semibold"; 
+        src: url("Tilt_Warp/static/TiltWarp-Regular.ttf") format("truetype"); 
+        font-style :normal; 
+        font-weight: normal; 
+        } 
