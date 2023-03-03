@@ -134,4 +134,7 @@
         font-family: 'Roboto', sans-serif;
     } */
     #tickets:hover{color: black;}
+    .poster:hover{
+      filter: brightness(60%);
+    }
     
