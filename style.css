@@ -1,67 +1,41 @@
-.grade1 {
+.grade1, .grade2 {
+    width: 70px;
+    height: 60px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-left: 25px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.ticket1, .ticket2 {
+    background-color: rgb(255,0,0);
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-left: 35px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}
+
+.card1, .card2 {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.gradeColor1 {
     background-color: rgb(59,179,58);
-    width: 70px;
-    height: 60px;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 15px;
-    padding-left: 25px;
-    position: absolute;
-    top: 50px;
-    left: 50px;
 }
-
-.grade2 {
+.gradeColor2 {
     background-color: rgb(255,0,0);
-    width: 70px;
-    height: 60px;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 15px;
-    padding-left: 25px;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-
-.ticket1 {
-    background-color: rgb(255,0,0);
-    width: 150px;
-    height: 50px;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 15px;
-    padding-left: 35px;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-
-}
-.ticket2 {
-    background-color: rgb(255,0,0);
-    width: 150px;
-    height: 50px;
-    color: white;
-    font-size: xx-large;
-    font-weight: bolder;
-    padding-top: 15px;
-    padding-left: 35px;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-
-}
-.card1 {
-    position: relative;
-    width: fit-content;;
-    height: fit-content;
-}
-
-.card2 {
-    position: relative;
-    width: fit-content;;
-    height: fit-content;
 }
