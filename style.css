@@ -1,10 +1,45 @@
-* {
+/* * {
     color: aliceblue;;
     font-size: 40px;
     margin: 10px;
     font-family: 'Roboto', sans-serif;
+  } */
+  .card {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: 25px;
   }
-  .number1{
+
+  .poster {
+    height: 300px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+
+  .green {
+    background-color: rgb(59, 179, 58);
+  }
+
+  .rating {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    padding: 5px;
+    color: white;
+  }
+
+  .tickets {
+    background-color: rgb(255, 86, 0);
+    position: absolute;
+    bottom: 15px;
+    right: 7px;
+    padding: 5px;
+    color: white;
+  }
+  /* .number1{
     position: relative;
     width: fit-content;
     height: fit-content;
@@ -15,21 +50,21 @@
     height: fit-content;
   }
 .photo{
-    /* width: fit-content;
-    height: fit-content; */
+    width: fit-content;
+    height: fit-content;
     margin: 20px 20px 20px 20px;
     padding: 10px;
     border: 20px ;
-    /* position: relative; */
+    position: relative;
     background-color: rgb(255, 255, 255);
 }
 .photo1{
-    /* width: fit-content;
-    height: fit-content; */
+    width: fit-content;
+    height: fit-content;
     margin: 20px 20px 20px 20px;
     padding: 10px;
     border: 20px ;
-    /* position: relative; */
+    position: relative;
     background-color: rgb(255, 255, 255);
 }
 
@@ -97,6 +132,6 @@
         top: 35px;
         right: 275px;
         font-family: 'Roboto', sans-serif;
-    }
-    #ticket:hover{color: black;}
-    #ticket1:hover{color: black;}
+    } */
+    #tickets:hover{color: black;}
+    
